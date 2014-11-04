@@ -33,7 +33,7 @@ class primality:
 		return primes
 			
 
-	def isprime(self, number) :
+	def isprime(self, number):
 		sqrt = math.sqrt(number)
 		sqrt_int = int(math.floor(sqrt))
 		prime = True
